@@ -9,7 +9,7 @@ PyTorch implementation of Multi-view PBR Material Diffusion Model, a small step 
 pip install -r requirements-inference.txt
 ```
 
-- You can also install PyTorch at first via [PyTorch Official](https://pytorch.org/get-started/previous-versions/), then install other dependencies via *requirements-inference.txt*.
+- (Optional) You can also install PyTorch at first via [PyTorch Official](https://pytorch.org/get-started/previous-versions/), then install other dependencies via *requirements-inference.txt*.
 ```bash
 # CUDA 11.6
 conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.6 -c pytorch -c nvidia
@@ -36,22 +36,22 @@ python inference.py --ctrlnet_seed=42 --mvdiff_seed=42 \ # seeds for normal-cond
 bash run.sh
 ```
 
-## Visualization
+## 🎻 Visualization
 ### Example 1
 - Image prompt
 
-<img src="assets/ironman_rgba.png" width="200" height="200" alt="">
+<img src="assets/ironman_rgba.png" width="150" height="150" alt="">
 
 - Multi-view PBR material generation results
 
-<img src="assets/eg1_results.png" width="1500" height="200" alt="">
+<img src="assets/eg1_results.png" alt="">
 
 ## 💎 Acknowledgments
+- [CLAY: A Controllable Large-scale Generative Model for Creating High-quality 3D Assets](https://sites.google.com/view/clay-3dlm)
 - [MVDream: Multi-view Diffusion for 3D Generation](https://mv-dream.github.io/)
-- [mvdream-sd21-diffusers](https://huggingface.co/lzq49/mvdream-sd21-diffusers)
+- [Controllable Text-to-3D Generation via Surface-Aligned Gaussian Splatting](https://lizhiqi49.github.io/MVControl/)
 - [IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models](https://ip-adapter.github.io/)
 - [HyperHuman: Hyper-Realistic Human Generation with Latent Structural Diffusion](https://snap-research.github.io/HyperHuman/)
-- [CLAY: A Controllable Large-scale Generative Model for Creating High-quality 3D Assets](https://sites.google.com/view/clay-3dlm)
 - [Objaverse: A Universe of Annotated 3D Objects](https://objaverse.allenai.org/)
 - [G-buffer Objaverse: High-Quality Rendering Dataset of Objaverse](https://aigc3d.github.io/gobjaverse/)
 - [Material Anything: Generating Materials for Any 3D Object via Diffusion](https://xhuangcv.github.io/MaterialAnything/)
