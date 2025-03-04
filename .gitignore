@@ -1,0 +1,5 @@
+__pycache__/
+ctrlnet_ip/image_prompts/
+mvsr/ckpt/
+data/
+tips_for_use.md
