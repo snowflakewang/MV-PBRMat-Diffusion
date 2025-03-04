@@ -31,7 +31,7 @@ python inference.py --ctrlnet_seed=42 --mvdiff_seed=42 \ # seeds for normal-cond
     --out_path="/path/to/inference_results" \ # output path
     --do_mv_super_res # whether do multi-view super-resolution or not
 ```
-- Run *run.sh* for inference
+- Run *run.sh* for inference.
 ```bash
 bash run.sh
 ```
@@ -46,6 +46,24 @@ bash run.sh
 
 <img src="assets/eg1_results.png" alt="">
 
+### Example 2
+- Text prompt
+
+*"Red Queen, full body, CGI, 8K, HD"*
+
+- Multi-view PBR material generation results
+
+<img src="assets/eg2_results.png" alt="">
+
+### Example 3
+- Text prompt
+
+*"Mandalorian, full body, CGI, 8K, HD"*
+
+- Multi-view PBR material generation results
+
+<img src="assets/eg3_results.png" alt="">
+
 ## 💎 Acknowledgments
 - [CLAY: A Controllable Large-scale Generative Model for Creating High-quality 3D Assets](https://sites.google.com/view/clay-3dlm)
 - [MVDream: Multi-view Diffusion for 3D Generation](https://mv-dream.github.io/)
@@ -55,3 +73,4 @@ bash run.sh
 - [Objaverse: A Universe of Annotated 3D Objects](https://objaverse.allenai.org/)
 - [G-buffer Objaverse: High-Quality Rendering Dataset of Objaverse](https://aigc3d.github.io/gobjaverse/)
 - [Material Anything: Generating Materials for Any 3D Object via Diffusion](https://xhuangcv.github.io/MaterialAnything/)
+- [Unique3D: High-Quality and Efficient 3D Mesh Generation from a Single Image](https://wukailu.github.io/Unique3D/)
