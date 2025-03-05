@@ -20,7 +20,7 @@ pip install -r requirements-inference.txt
 ### Pre-trained weights
 - MVDream & MVControlNet
 
-For MVDream base model and Multi-view ControlNet, we use a third-party [diffusers implementation](https://huggingface.co/SnowflakeWang/MV-PBRMat-Diffusion) inherited from [Controllable Text-to-3D Generation via Surface-Aligned Gaussian Splatting](https://lizhiqi49.github.io/MVControl/), instead of the official implementation.
+For MVDream base model and Multi-view ControlNet, we use a third-party [diffusers implementation](https://huggingface.co/SnowflakeWang/MV-PBRMat-Diffusion) inherited from the [HuggingFace repo](https://huggingface.co/lzq49/mvdream-sd21-diffusers) of [Controllable Text-to-3D Generation via Surface-Aligned Gaussian Splatting](https://lizhiqi49.github.io/MVControl/), instead of the official implementation.
 
 Click the links to download: [MVDream](https://huggingface.co/SnowflakeWang/MV-PBRMat-Diffusion), [MVControlNet](https://huggingface.co/lzq49/mvcontrol-4v-normal)
 
@@ -36,11 +36,11 @@ Click the link to download: [pytorch_model.bin]().
 ### Final saved fine-tuned checkpoints
 - IP-Adapter & Image Projection Model
 
-Click the links to download: [ip_adapter.pt](), [image_proj_model.pt]()
+Click the links to download: [ip_adapter.pt](https://huggingface.co/SnowflakeWang/MV-PBRMat-Diffusion/resolve/main/ip_adapter.pt?download=true), [image_proj_model.pt](https://huggingface.co/SnowflakeWang/MV-PBRMat-Diffusion/resolve/main/image_proj_model.pt?download=true)
 
 - UNet LoRA & Multi-branch
 
-Click the link to download: [unet.pt](), LoRA and Multi-branch have been unified in it.
+Click the link to download: [unet.pt](https://huggingface.co/SnowflakeWang/MV-PBRMat-Diffusion/resolve/main/unet.pt?download=true), LoRA and Multi-branch have been unified in it.
 
 ## 🎹 Run inference
 - You can regard *run.sh* as an example.
