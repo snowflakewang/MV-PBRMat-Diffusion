@@ -43,6 +43,21 @@ Click the links to download: [ip_adapter.pt](https://huggingface.co/SnowflakeWan
 Click the link to download: [unet.pt](https://huggingface.co/SnowflakeWang/MV-PBRMat-Diffusion/resolve/main/unet.pt?download=true), LoRA and Multi-branch have been unified in it.
 
 ## 🎹 Run inference
+### Prepare input
+- You can organize your input as the following structure. We put one folder in *data/input_mv_normal* as an example.
+```bash
+|-- example1
+    |-- front.png # rendered normal from the front view of the mesh
+    |-- right.png # right view normal
+    |-- back.png # back view normal
+    |-- left.png # left view normal
+    |-- top.png # top view normal
+    |-- bottom.png # bottom view normal
+|-- example2
+...
+```
+
+### Run code
 - You can regard *run.sh* as an example.
 ```bash
 # in run.sh
